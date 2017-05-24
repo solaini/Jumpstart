@@ -11,27 +11,46 @@ html{
 }
 /*Jumbotron Formatting*/
 .jumbotron .container-fluid{
+    position: relative;
     color: white;
     text-align: center;
     padding-top: 11.85rem;
     width: 51.3rem;
 }
-
 .jumbotron h1{
-    font-family: 'Monoton';
+    font-family: "Monoton", sans-serif;
     font-size: 7.1rem;
+}
+.jumbotron {
+    height: 44rem;
+    padding-top: 10rem;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+.relative-wrapper{
+    position: relative;
+    text-align: center;
+    padding-top: 2.8rem;
+}
+.btn{
+    background-color: #399bd1;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    width: 11.4rem;
 }
 
 
 .jumbotron-bike{
     background-image: url("./images/jumbotron-bike.jpg");
-    height: 50rem;
+    height: 70rem;
 }
 
 .image-container{
     opacity: 0.7;
 }
-.container{
-    display: flex
-}
+
