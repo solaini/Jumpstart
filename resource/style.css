@@ -5,15 +5,22 @@ html{
 .active{
     color: #399bd1;
 }
-
-.jumbotron h1, jumbotron p{
-    color: white;   
+.nav{
+    font-size: 1.1rem;
+    font-weight: bold;
 }
+/*Jumbotron Formatting*/
+.jumbotron .container-fluid{
+    color: white;
+    text-align: center;
+    padding-top: 11.85rem;
+    width: 51.3rem;
+}
+
 .jumbotron h1{
     font-family: 'Monoton';
     font-size: 7.1rem;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    color: white;
 }
 
 
