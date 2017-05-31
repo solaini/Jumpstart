@@ -65,8 +65,10 @@ div{
 }
 .project .image-container{
     max-height: 100%;
+    max-width: 100%;
     overflow: hidden;
     position: relative;
+    vertical-align: center;
 }
 /*Help Section*/
 .help{
@@ -84,3 +86,6 @@ strong{
     font-size: 2.5rem;
 }
 
+@media only screen and (max-width: 768px){
+    
+}
