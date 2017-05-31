@@ -24,7 +24,7 @@ html{
     font-family: "Monoton", sans-serif;
     font-size: 7.1rem;
 }
-.jumbotron {
+.jumbotron{
     padding-top: 10rem;
     text-align: center;
     background-size: cover;
@@ -37,6 +37,8 @@ html{
 .relative-wrapper{
     position: relative;
     text-align: center;
+    top: -20rem;
+    width: 100%;
 }
 .btn-primary{
     background-color: #399bd1;
@@ -63,6 +65,8 @@ html{
     background-image: url("./images/jumbotron-duffel.jpg");
     height: 70rem;
 }
+
+
 
 /*Image Containers*/
 .image-container{
