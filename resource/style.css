@@ -51,6 +51,18 @@ html{
     background-image: url("./images/jumbotron-bike.jpg");
     height: 70rem;
 }
+.jumbotron-beer{
+    background-image: url("./images/jumbotron-beer.jpg");
+    height: 70rem;
+}
+.jumbotron-flowers{
+    background-image: url("./images/jumbotron-flowers.jpg");
+    height: 70rem;
+}
+.jumbotron-duffel{
+    background-image: url("./images/jumbotron-duffel.jpg");
+    height: 70rem;
+}
 
 /*Image Containers*/
 .image-container{
@@ -93,8 +105,4 @@ strong{
     .jumbotron h1{
         font-size: 5.7rem;
     }
-    .nav{
-
-    }
-
 }
