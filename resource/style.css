@@ -49,19 +49,19 @@ html{
 }
 
 /*Bike Jumbotron*/
-.jumbotron-bike{
+.background-bike{
     background-image: url("./images/jumbotron-bike.jpg");
     height: 70rem;
 }
-.jumbotron-beer{
+.background-beer{
     background-image: url("./images/jumbotron-beer.jpg");
     height: 70rem;
 }
-.jumbotron-flowers{
+.background-flowers{
     background-image: url("./images/jumbotron-flowers.jpg");
     height: 70rem;
 }
-.jumbotron-duffel{
+.background-duffel{
     background-image: url("./images/jumbotron-duffel.jpg");
     height: 70rem;
 }

@@ -7,5 +7,8 @@ $(document).ready(function () {
         pauseOnFocus: false,
         pauseOnHover: false
     });
+
+    var scrol = 0;
+
 });
 
