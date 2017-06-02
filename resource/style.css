@@ -48,20 +48,21 @@ html{
     margin-top: 2.8rem;
 }
 
+
 /*Bike Jumbotron*/
-.background-bike{
+.jumbotron-bike{
     background-image: url("./images/jumbotron-bike.jpg");
     height: 70rem;
 }
-.background-beer{
+.jumbotron-beer{
     background-image: url("./images/jumbotron-beer.jpg");
     height: 70rem;
 }
-.background-flowers{
+.jumbotron-flowers{
     background-image: url("./images/jumbotron-flowers.jpg");
     height: 70rem;
 }
-.background-duffel{
+.jumbotron-duffel{
     background-image: url("./images/jumbotron-duffel.jpg");
     height: 70rem;
 }
