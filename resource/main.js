@@ -6,8 +6,9 @@ $(document).ready(function () {
         fade: true,
         pauseOnFocus: false,
         pauseOnHover: false,
-        slidesToShow: 1,
-        slidesToScroll: 4
+        // slidesToShow: 1,
+        slidesToScroll: 4,
+        slidesPerRow: 4
     });
 
     var scrol = 0;
