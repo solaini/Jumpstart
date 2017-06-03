@@ -5,7 +5,9 @@ $(document).ready(function () {
         arrows: false,
         fade: true,
         pauseOnFocus: false,
-        pauseOnHover: false
+        pauseOnHover: false,
+        slidesToShow: 1,
+        slidesToScroll: 4
     });
 
     var scrol = 0;
