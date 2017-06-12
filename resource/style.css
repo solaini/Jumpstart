@@ -14,7 +14,7 @@ html{
 
 /*Jumbotron Formatting*/
 .jumbotron .container-fluid{
-    position: relative;
+    /*position: relative;*/
     color: white;
     text-align: center;
     padding-top: 11.85rem;

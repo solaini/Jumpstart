@@ -6,13 +6,23 @@ $(document).ready(function () {
         fade: true,
         pauseOnFocus: false,
         pauseOnHover: false,
-        // slidesToShow: 1,
-        slidesToScroll: 4,
-        slidesPerRow: 4
     });
+    var prev = 0;
+    var $window = $(window);
+    var nav = $('.navbar');
 
-    var scrol = 0;
-    
+    $window.on('scroll', function(){
+        var scrollTop = $window.scrollTop();
+        nav.toggleClass('hidden', scrollTop < prev);
+        prev = scrollTop;
+    });
+    // var scrol = 0;
+    // $(window).on('scroll', function(){
+    //     var scrolltop=$(window).scrollTop();
+    //     $('.nav').toggleClass('hidden', scrolltop > scrol);
+    //     scrol = scrolltop;
+    //     console.log('scrol');
+    // })
 
 });
 
